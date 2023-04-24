@@ -14,3 +14,4 @@ pathloss
 output:
 TPMI.
 
+An example is avaible in Predice.py
