@@ -134,8 +134,11 @@ def predice(fil,x):
     y = np.argmax(model.predict(x),axis=1)
     return y,model
 
-fil =    "C:/Users/iae/Desktop/Simulador/rldpws/Modelos_TPMI/TPMI_Model1679656344/"
-l = np.zeros((1,120,10))
+fil =    # Put the path where agent is saved
+input_predice = np.zeros(1,120,10)
+input_predice[:,0:8]  = # allocate the channel
+input_predice[:,9] = # Allocate the noise estimation
+input_predice[:,10] # Allocate the pathloss
 
-y,model = predice(fil,l)
+y,model = predice(fil,input_predice)
 print(y)
