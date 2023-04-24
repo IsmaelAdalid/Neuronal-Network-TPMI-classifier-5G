@@ -5,6 +5,7 @@ Neuronal Network has been trained with a 372000 samples of a CDL channel using o
 The Neuronal Network is a custom keras model using a different layers. Also for trainings it has been used a custom keras data generator to allows to reduce the uses of memory.
 
 To predict the TPMI:
+
 input:
 channel wich is a 120x8 matrix complex
 noise estimation
