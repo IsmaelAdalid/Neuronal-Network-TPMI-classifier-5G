@@ -7,7 +7,7 @@ The Neuronal Network is a custom keras model using a different layers. Also for 
 To predict the TPMI:
 
 input:
-channel wich is a 120x8 matrix complex
+channel which is a 120x8 matrix complex
 noise estimation
 pathloss
 
